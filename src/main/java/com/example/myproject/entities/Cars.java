@@ -10,6 +10,7 @@ import lombok.Setter;
 @Table (name="cars",schema = "public")
 @Getter
 @Setter
+@NoArgsConstructor
 public class Cars {
 
     @Id
